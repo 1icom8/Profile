@@ -1,0 +1,73 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    /*5-6 กำหนดค่าต่างๆขอบรูป background*/
+    background: url(456.jpg) no-repeat center fixed;
+    background-size: auto;
+    
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    
+}
+h4{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    width: 33.33%;
+    vertical-align: top;
+}
+/* (2) Class Selector */
+.table-menu{
+    width:100%;
+    background-color: rgba(240, 248, 255, 0.171);
+    font-family: cursive; 
+    text-align: center;
+    
+}
+.p-Aboutme{
+    font-weight: normal; 
+    text-align: justify;
+}
+.p-Name{
+    font-weight: normal;
+}
+.p-Footer{
+    text-align: center;
+}
+.name{
+    text-decoration: underline;
+    
+    
+}
+/* (3) Id Selector */
+#th-Details{
+    text-align: left;
+}
+ 
+.body {background-color:#2d2d2d;}
+
+/*63-72 กำหนดค่าต่างๆของ นาฬิกา*/
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 95%;
+  position: fixed;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 2px solid #ed1f24;
+  padding: 20px;
+}
+

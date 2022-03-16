@@ -1,0 +1,41 @@
+/* CSS files --> projects.html */
+body{
+    background: url(456.jpg) no-repeat center fixed;
+    background-size: auto;
+}
+.table-menu{
+    width:100%;
+    background-color: rgba(240, 248, 255, 0.171);
+    font-family: cursive; 
+    text-align: center;
+    
+}
+h1{
+    text-align: center; 
+    font-family: cursive;
+    
+} 
+h4{
+    text-align: center; 
+    font-family: cursive; 
+    font-weight: normal;
+}
+h5{ 
+    text-align: center; 
+    font-family: cursive;  
+    font-weight: normal;
+}
+p{
+    text-align: center;     
+}
+#timedate {
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:left;
+    width: 50%;
+    top: 70%;
+    position: absolute;
+    margin: 40px auto;
+    color:#fff;
+    border-left: 3px solid #ed1f24;
+    padding: 20px;
+  }

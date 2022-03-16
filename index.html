@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>icom Profile Site</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+ 
+    <!--12 link index.html กับ index.css เพื่อให้ข้อมูลเชื่อมต่อกัน-->
+    <link rel="stylesheet" href="css/index.css">
+ 
+    
+    <link rel="icon" href="favicon.ico">
+ 
+    <!--Internal CSS => 2nd Priority-->
+    <!--<style>
+        /* CSS Comments */
+        /* CSS Syntax => Selector { property: value; } */
+        /* (1) Tag Selector */
+    </style>-->
+ 
+</head>
+<body>
+    <!--Header-->
+    <!--Inline CSS => 1st Priority-->
+    <!--The Content Division element-->
+    <div class="top-container">
+    <h1><span class="name">Profile</span></h1>
+    <h2>I'm icom</h2> 
+    <h4><i>"กุ้งอบเนยโรยเกลือ."</i></h4>    
+    </div>  
+    <hr>
+ 
+    <!--Menu-->
+    <!--37-58 เป็นการกำหนดให้ปุ่มที่โชว์อยู่ link กับ html ต่างๆ-->
+    <div class="table-menu">
+    <table>
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
+                <h3><a href="experiences.html">Experiences</a></h3>
+            </td>
+            <td>
+                <h3><a href="abilities.html">Abilities</a></h3>
+            </td>
+            <td>
+                <h3><a href="projects.html">Projects</a></h3>
+            </td>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3>
+            </td>
+        </tr>
+    </table> 
+    </div>
+     
+    <hr>
+    <div class="table-content">
+    <table>
+        <tr>
+            <th><h2 ><span class="name">About me</span></h2>
+                <p class="p-Aboutme">   
+                    Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra 
+                    Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra
+                    Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra
+                    Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra Bra.
+                </p>
+                
+                <p>Email: <a href="comusa8456@gmail.com">comusa8456@gmail.com</a></p>
+            </th>
+            <th>
+
+                <p><img src="iucircle.png" alt="iu" style="width: 60%;"></p>
+            </th>
+            <th id="th-Details"><h2><span class="name">Details</span></h2>
+                <p>Name:</p>
+                    <p class="p-Name">icom</p>
+                <p>Location:</p>
+                    <p class="p-Name">Thailand</p>
+                    <p>Social Media:</p>
+                    <p>
+                        <a href="https://www.facebook.com/com8456" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://www.instagram.com/icom.tc" class="fa fa-instagram" style="font-size: 40px; color: brown;"></a>
+                        
+                    </p>
+            </th>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <p class="p-Footer">© 2022 icom</p>
+</body>
+</html>
+<body onLoad="initClock()">
+
+    <!--100-108 กำหนดค่าต่างๆของนาฬิกา-->
+    <div id="timedate">
+      <a id="mon">January</a>
+      <a id="d">1</a>,
+      <a id="y">0</a><br />
+      <a id="h">12</a> :
+      <a id="m">00</a>:
+      <a id="s">00</a>:
+      <a id="mi">000</a>
+    </div>
+
+    <!--109 link index.html กับ js.js-->
+    <script src="js.js"></script>
